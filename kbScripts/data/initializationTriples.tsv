@@ -1,0 +1,205 @@
+CPA	certifications_is required by_occupations	Accountant
+CFA	certifications_is required by_occupations	Financial Analyst
+CMA	certifications_is required by_occupations	Management Accountant
+CITP	certifications_is required by_occupations	Information Technology Professional
+CFP	certifications_is required by_occupations	Financial Planner
+CISM	certifications_is required by_occupations	Information Security Manager
+CFE	certifications_is required by_occupations	Forensic Accountant
+CIE	certifications_is required by_occupations	Industrial Engineer
+CEM	certifications_is required by_occupations	Energy Manager
+CIT	certifications_is required by_occupations	IT Technician
+New York	cities_is located in_states or provinces	New York
+Los Angeles	cities_is located in_states or provinces	California
+Toronto	cities_is located in_states or provinces	Ontario
+São Paulo	cities_is located in_states or provinces	São Paulo
+Beijing	cities_is located in_states or provinces	Beijing
+Cairo	cities_is located in_states or provinces	Cairo
+Mumbai	cities_is located in_states or provinces	Maharashtra
+Sydney	cities_is located in_states or provinces	New South Wales
+Berlin	cities_is located in_states or provinces	Berlin
+Apple Inc.	companies_has office in_cities	Cupertino
+Samsung Electronics	companies_has office in_cities	Suwon
+Microsoft Corporation	companies_has office in_cities	Redmond
+Amazon	companies_has office in_cities	Seattle
+Volkswagen AG	companies_has office in_cities	Wolfsburg
+Toyota Motor Corporation	companies_has office in_cities	Toyota City
+Nestlé S.A.	companies_has office in_cities	Vevey
+BP plc	companies_has office in_cities	London
+Huawei Technologies Co. Ltd.	companies_has office in_cities	Shenzhen
+Tata Group	companies_has office in_cities	Mumbai
+Indeed.com	companies_hires_occupations	Software Engineer
+Google	companies_hires_occupations	Data Scientist
+Pinterest	companies_hires_occupations	Product Manager
+Walmart	companies_hires_occupations	Business Analyst
+Facebook	companies_hires_occupations	UX Designer
+Uber	companies_hires_occupations	Software Developer
+Airbnb	companies_hires_occupations	Marketing Manager
+Tesla	companies_hires_occupations	Hardware Engineer
+Adobe	companies_hires_occupations	Data Analyst
+Oracle	companies_hires_occupations	Systems Administrator
+UPMC	companies_hires_occupations	registered nurse
+Netflix	companies_is in_industries 	Technology
+ExxonMobil	companies_is in_industries	Energy
+McDonalds	companies_is in_industries	Food & Beverage
+Target	companies_is in_industries	Retail
+Toyota	companies_is in_industries	Automotive
+Bank of America	companies_is in_industries	Financial Services
+ebay	companies_is in_industries	E-commerce
+Chevron	companies_is in_industries	Oil & Gas
+Home Depot	companies_is in_industries	Home Improvement
+UnitedHealth Group	companies_is in_industries	Healthcare
+Bachelor of Science in Computer Science	degrees_helps developing_skills	Programming
+Bachelor of Arts in International Relations	degrees_helps developing_skills	Diplomacy
+Bachelor of Engineering in Civil Engineering	degrees_helps developing_skills	Structural Design
+Bachelor of Business Administration in Accounting	degrees_helps developing_skills	Financial Analysis
+Bachelor of Laws in Legal Studies	degrees_helps developing_skills	Legal Research
+Bachelor of Education in Early Childhood Education	degrees_helps developing_skills	Child Development
+Bachelor of Arts in Music	degrees_helps developing_skills	Music Theory
+Bachelor of Science in Agriculture	degrees_helps developing_skills	Crop Management
+Bachelor of Arts in Anthropology	degrees_helps developing_skills	Cultural Studies
+Bachelor of Science in Veterinary Medicine	degrees_helps developing_skills	Animal Care
+Apple	companies_is in_industry	Technology
+ExxonMobil	companies_is in_industry	Energy
+McDonalds	companies_is in_industry	Food & Beverage
+Walmart	companies_is in_industry	Retail
+Toyota	companies_is in_industry	Automotive
+Bank of America	companies_is in_industry	Financial Services
+Amazon	companies_is in_industry	E-commerce
+Chevron	companies_is in_industry	Oil & Gas
+Home Depot	companies_is in_industry	Home Improvement
+UnitedHealth Group	companies_is in_industry	Healthcare
+Kaiser Permanente	companies_is in_industry	Healthcare
+Bachelor of Science in Computer Science	degrees_helps developing_skills	Programming
+Bachelor of Arts in International Relations	degrees_helps developing_skills	Diplomacy
+Bachelor of Engineering in Civil Engineering	degrees_helps developing_skills	Structural Design
+Bachelor of Business Administration in Accounting	degrees_helps developing_skills	Financial Analysis
+Bachelor of Laws in Legal Studies	degrees_helps developing_skills	Legal Research
+Bachelor of Education in Early Childhood Education	degrees_helps developing_skills	Child Development
+Bachelor of Arts in Music	degrees_helps developing_skills	Music Theory
+Bachelor of Science in Agriculture	degrees_helps developing_skills	Crop Management
+Bachelor of Arts in Anthropology	degrees_helps developing_skills	Cultural Studies
+Bachelor of Science in Veterinary Medicine	degrees_helps developing_skills	Animal Care
+Bachelor of Arts	degrees_is in_fields of study	History
+Bachelor of Science in Computer Science	degrees_is in_fields of study	Computer Science
+Master of Business Administration	degrees_is in_fields of study	Business
+Doctor of Medicine	degrees_is in_fields of study	Medicine
+Doctor of Veterinary Medicine	degrees_is in_fields of study	Veterinary Science
+Juris Doctor	degrees_is in_fields of study	Law
+Master of Education	degrees_is in_fields of study	Education
+Master of Science	degrees_is in_fields of study	Engineering
+Master of Social Work	degrees_is in_fields of study	Social Work
+Doctor of Philosophy	degrees_is in_fields of study	Philosophy
+Computer Science	fields of study_helps developing_skills	Programming
+Architecture	fields of study_helps developing_skills	Design
+Engineering	fields of study_helps developing_skills	Problem Solving
+Medicine	fields of study_helps developing_skills	Diagnosis
+Law	fields of study_helps developing_skills	Legal Analysis
+Education	fields of study_helps developing_skills	Pedagogy
+Agriculture	fields of study_helps developing_skills	Farming
+Accounting	fields of study_helps developing_skills	Financial Management
+Psychology	fields of study_helps developing_skills	Counseling
+Culinary Arts	fields of study_helps developing_skills	Cooking
+Doctor	occupations_requires_degrees	MD
+Lawyer	occupations_requires_degrees	JD
+Engineer	occupations_requires_degrees	BEng
+Architect	occupations_requires_degrees	BArch
+Accountant	occupations_requires_degrees	CPA
+Teacher	occupations_requires_degrees	BA
+Chef	occupations_requires_degrees	Culinary Arts
+Software Developer	occupations_requires_degrees	BSCS
+Journalist	occupations_requires_degrees	BAJ
+Pharmacist	occupations_requires_degrees	PharmD
+Accountant	occupations_requires_skills	Mathematics
+Architect	occupations_requires_skills	Design
+Chef	occupations_requires_skills	Cooking
+Computer Scientist	occupations_requires_skills	Programming
+Doctor	occupations_requires_skills	Medicine
+Engineer	occupations_requires_skills	Physics
+Lawyer	occupations_requires_skills	Law
+Musician	occupations_requires_skills	Music Theory
+Teacher	occupations_requires_skills	Pedagogy
+Writer	occupations_requires_skills	Creative Writing
+Harvard University	universities_hascampus in_cities	Cambridge, MA
+University of Oxford	universities_hascampus in_cities	Oxford, England
+University of Tokyo	universities_hascampus in_cities	Tokyo, Japan
+University of Delhi	universities_hascampus in_cities	Delhi, India
+University of São Paulo	universities_hascampus in_cities	São Paulo, Brazil
+University of Cairo	universities_hascampus in_cities	Cairo, Egypt
+University of Cape Town	universities_hascampus in_cities	Cape Town, South Africa
+University of Melbourne	universities_hascampus in_cities	Melbourne, Australia
+University of Moscow	universities_hascampus in_cities	Moscow, Russia
+Fudan University	universities_hascampus in_cities	Shanghai, China
+Harvard University	universities_offers_degrees	Bachelor of Arts
+University of Oxford	universities_offers_degrees	Master of Science
+University of Tokyo	universities_offers_degrees	Doctor of Philosophy
+University of Delhi	universities_offers_degrees	Bachelor of Technology
+University of Cambridge	universities_offers_degrees	Master of Business Administration
+University of Paris	universities_offers_degrees	Doctor of Medicine
+University of Moscow	universities_offers_degrees	Bachelor of Law
+University of Beijing	universities_offers_degrees	Master of Education
+University of Sydney	universities_offers_degrees	Doctor of Veterinary Medicine
+University of Seoul	universities_offers_degrees	Bachelor of Engineering
+skills	generalizations	concepts to be learned in current kb
+soft skills	generalizations	concepts to be learned in current kb
+technical skills	generalizations	concepts to be learned in current kb
+companies	generalizations	concepts to be learned in current kb
+companies	generalizations	organizations
+degrees	generalizations	concepts to be learned in current kb
+universities	generalizations	organizations
+universities	generalizations	concepts to be learned in current kb
+occupations	generalizations	concepts to be learned in current kb
+job titles	generalizations	concepts to be learned in current kb
+industries	generalizations	concepts to be learned in current kb
+fields of study	generalizations	concepts to be learned in current kb
+cities	generalizations	locations
+cities	generalizations	concepts to be learned in current kb
+certifications	generalizations	concepts to be learned in current kb
+concepts to be learned in current kb	is a slot	theoSlot
+body language interpretation	skills_helps developing_skills communication
+logical thinking	skills_helps developing_skills	computer programming
+curiosity	skills_helps developing_skills	critical thinking
+Analytical Reasoning	skills_helps developing_skills	technical writing
+critical thinking	skills_helps developing_skills	research skill
+math	skills_helps developing_skills	computer programming
+microsoft excel	skills_helps developing_skills	data validation
+negotiation	skills_helps developing_skills	business analysis
+conflict resolution	skills_helps developing_skills	project management
+regulatory compliance understanding	skills_helps developing_skills	risk management
+Microsoft Excel	generalizations	Spreadsheet software
+organizations	generalizations	agents
+agents	generalizations	everything
+people	generalization	agents
+abstract thing	generalizations	everything
+skills	generalizations	abstract things
+degrees	generalizations	abstract things
+occupations	generalizations	abstract things
+fields of study	generalizations	abstract things
+job titles generalizations	occupations
+certifications	generalizations	abstract things
+industries	generalizations	abstract things
+cities	generalizations	location
+locations	generalizations	everything
+theoSlot	generalizations	abstract things
+professional	generalizations	people
+relations generalizations	theoSlot
+is located in	generalizations	relations
+cities_is located in_states or provinces	generalizations	is located in
+certifications_is required by_occupations	generalizations	is required by
+is required by	generalizations	relations
+companies_has office in_cities	generalizations	has office in
+has office in	generalizations	relations
+companies_hires_occupations	generalizations	hires
+hires	generalizations	relations
+companies_is in_industries	generalizations	is in
+is in	generalizations	relations
+degrees_helps developing_skills	generalizations	helps developing
+helps developing	generalizations	relations
+degrees_is in_fields of study	generalizations	is in
+skills_helps developing_skills	generalizations	helps developing
+universities_offers_degrees	generalizations	offers
+offers	generalizations	relations
+occupations_requires_skills	generalizations	requires
+requires	generalizations	relations
+
+
+

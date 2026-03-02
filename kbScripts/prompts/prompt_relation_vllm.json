@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "'Consider the the relation ' + relationName + '. The following list of pairs of entities are examples for that relation. The first element in the pair is an entity from the concept ' + subjectType + ' and the second element is an entity from the concept ' + objectType + '. Now, based on the following examples of this relation, provide a new list (using the same format of the provided list) with 20 new examples.  Here is the list with the original examples: ' + str(relationInstancesListPairs) + '. Please, format your answer as a python list. Do not add any comment, output just the python list starting with [ and ending with ]'",
+        "subjectType": "relationName.split('_')[0]",
+        "relationName": "relationName.split('_')[1]",
+        "objectType": "spacyModel(relationName.split('_')[2])[0].lemma_",
+        "MASK_TYPE": "objectType",
+        "MASK_PAIR": "pair[0][0]",
+        "example": "Consider the the relation hires. The following list of pairs of entities are examples for that relation. The first element in the pair is an entity from the concept companies and the second element is an entity from the concept occupation. Now, based on the following examples of this relation, provide a new list (using the same format of the provided list) with 20 new examples.  Here is the list with the original examples: [('Apple', 'Software Engineer'), ('Google', 'Data Scientist'), ('Microsoft', 'Product Manager'), ('Amazon', 'Business Analyst'), ('Facebook', 'UX Designer'), ('Uber', 'Software Developer'), ('Airbnb', 'Marketing Manager'), ('Tesla', 'Hardware Engineer'), ('Adobe', 'Data Analyst'), ('Oracle', 'Systems Administrator')]. Please, format your answer as a python list. Do not add any comment, output just the python list starting with [ and ending with ]'"
+    }    
+]

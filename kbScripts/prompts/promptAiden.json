@@ -1,0 +1,154 @@
+[
+    {
+        "prompt": "person seen as [persona] is perceived as a [MASK] person",
+        "MASK_TYPE": "perception"
+    },
+    {
+        "prompt": "person seen as a [MASK] person is perceived as a [perception] person",
+        "MASK_TYPE": "perception"
+    },
+    {
+        "prompt": "person perceived as a [MASK] person, is seen as a [perception] person",
+        "MASK_TYPE": "perception"
+    },
+    {
+        "prompt": "person perceived as a [perception] person, is seen as a [MASK] person",
+        "MASK_TYPE": "persona"
+    },
+    {
+        "prompt": "working as a [occupation] who is motivated by the need of [MASK] and ",
+        "MASK_TYPE": "motivation"
+    },
+    {
+        "prompt": "working as a [MASK] who is motivated by the need of [motivation] and ",
+        "MASK_TYPE": "motivation"
+    },
+    {
+        "prompt": "becoming a [persona] who is motivated by the need of [MASK] and ",
+        "MASK_TYPE": "motivation"
+    },
+    {
+        "prompt": "becoming a [MASK] who is motivated by the need of [motivation] and ",
+        "MASK_TYPE": "motivation"
+    },
+    {
+        "prompt": "becoming a [persona] is the result of being [MASK] and ",
+        "MASK_TYPE": "motivation"
+    },
+    {
+        "prompt": "becoming a [MASK] is the result of being [persona] and ",
+        "MASK_TYPE": "motivation"
+    },
+    {
+        "prompt": "being [persona] is caused by the need of [MASK] and",
+        "MASK_TYPE": "motivation"
+    },
+    {
+        "prompt": "being [MASK] is caused by the need of [persona] and",
+        "MASK_TYPE": "motivation"
+    },
+    {
+        "prompt": "being [persona] is caused by the need of [MASK] and",
+        "MASK_TYPE": "motivation"
+    },
+    {
+        "prompt": "a [occupation] that need [motivation] will want [MASK] and",
+        "MASK_TYPE": "motivation"
+    },
+    {
+        "prompt": "being good at [MASK] is neccessary to work as a [occupation]",
+        "MASK_TYPE": "skill"
+    },
+    {
+        "prompt": "being able to [MASK] is neccessary to work as a [occupation]",
+        "MASK_TYPE": "skill"
+    },
+    {
+        "prompt": "being able to [MASK] is essential to work as a [occupation]",
+        "MASK_TYPE": "skill"
+    },
+    {
+        "prompt": "being able to [MASK] is important to work as a [occupation]",
+        "MASK_TYPE": "skill"
+    },
+    {
+        "prompt": "it is important to understand concept of [MASK] before thinking about [skill]",
+        "MASK_TYPE": "concept"
+    },
+    {
+        "prompt":"concept of [MASK], it has a subconcept of [concept] and ",
+        "MASK_TYPE": "concept"
+    },
+    {
+        "prompt": "concept of [concept] has subconcept of [MASK] and ",
+        "MASK_TYPE": "concept"
+    },
+    {
+        "prompt":"concept of [MASK], it is a subconcept of [concept] and ",
+        "MASK_TYPE": "concept"
+    },
+    {
+        "prompt": "being a [occupation] will conduct act of [MASK] for",
+        "MASK_TYPE": "activity"
+    },
+    {
+        "prompt": "being a [occupation] imply being seen as a [MASK] person",
+        "MASK_TYPE": "persona"
+    },
+    {
+        "prompt": "speaking about [motivation] imply being seen as a [MASK] person",
+        "MASK_TYPE": "persona"
+    },
+    {
+        "prompt": "the person speaking about [skill] imply being seen by others as a [MASK] person",
+        "MASK_TYPE": "persona"
+    },
+    {
+        "prompt": "the person speaking about [skill] imply being seen by others as a [MASK] person",
+        "MASK_TYPE": "persona"
+    },
+    {
+        "prompt": "the person speaking about [skill] will be seen by others as a [MASK] person",
+        "MASK_TYPE": "persona"
+    },
+    {
+        "prompt": "the person speaking about [motivation] will be seen by others as a [MASK] person",
+        "MASK_TYPE": "persona"
+    },
+    {
+        "prompt": "the person speaking about [occupation] will be seen by others as a [MASK] person",
+        "MASK_TYPE": "persona"
+    },
+    {
+        "prompt": "the person speaking about needs of [motivation] will be seen by others as a [MASK] person",
+        "MASK_TYPE": "perception"
+    },
+    {
+        "prompt": "working as a [occupation], you will need a degree with field of study in [MASK] or ",
+        "MASK_TYPE": "fieldOfStudy"
+    },
+    {
+        "prompt": "working as a [MASK], you will need a degree with field of study in [fieldOfStudy] or ",
+        "MASK_TYPE": "occupation"
+    },
+    {
+        "prompt": "working as a [MASK] is same as working as a [occupation] ",
+        "MASK_TYPE": "occupation"
+    },
+    {
+        "prompt": "working as a [occupation] is same as working as a [MASK] or",
+        "MASK_TYPE": "occupation"
+    },
+    {
+        "prompt": "a good [occupation] will have experience of [MASK] and ",
+        "MASK_TYPE": "occupation"
+    },
+    {
+        "prompt": "an experienced [occupation] is mainly responsible for [MASK] and making sure",
+        "MASK_TYPE": "activity"
+    },
+    {
+        "prompt": "experience of [activity] is required for working as a [MASK] because ",
+        "MASK_TYPE": "occupation"
+    }
+]

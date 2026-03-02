@@ -1,0 +1,4 @@
+{
+    "role": "user", 
+    "content": "Consider the following set of entities and tell me what are the possible concepts that they belong to. Format your response as a python dictionary that can be converted to json. Output only the dictionary without any extra comment or content. Here is the set of entities: google, apple, netflix, facebook, pinterest"
+}

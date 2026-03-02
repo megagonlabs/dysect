@@ -1,0 +1,21 @@
+name: kb
+channel:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11.9
+  - python
+  - ipython
+  - ipykernel
+  - numpy
+  - pandas
+  - matplotlib
+  - pip
+  - openai
+  - spacy
+  - pip:
+    - vllm
+    - bitsandbytes
+    # - t5
+    - sentence-transformers
+    - tf-keras

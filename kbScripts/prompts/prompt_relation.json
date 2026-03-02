@@ -1,0 +1,66 @@
+[
+    {
+        "prompt": "pair[0][0] + ' ' + relationName + ' [MASK] ' + objectType+ ' and ' + pair[1][0] + ' ' +relationName + ' ' + pair[1][1] + ' ' + objectType + '.'",
+        "subjectType": "relationName.split('_')[0]",
+        "relationName": "relationName.split('_')[1]",
+        "objectType": "spacyModel(relationName.split('_')[2])[0].lemma_",
+        "MASK_TYPE": "objectType",
+        "MASK_PAIR": "pair[0][0]",
+        "example": "Microsoft is located in [MASK] city and Google is located in Mountain View city"
+    },
+    {
+        "prompt": "'[MASK] ' + relationName + ' ' + pair[0][1] + ' ' + objectType + ' and ' + pair[1][0] + ' ' + relationName + ' ' + pair[1][1] + ' ' + objectType + '.'",
+        "subjectType": "relationName.split('_')[0]",
+        "relationName": "relationName.split('_')[1]",
+        "objectType": "spacyModel(relationName.split('_')[2])[0].lemma_",
+        "MASK_TYPE": "subjectType",
+        "MASK_PAIR": "pair[0][1]",
+        "example": "[MASK] is located in Redmond city and Google is located in Mountain View city"
+    },
+    {
+        "prompt": "pair[0][0] + ' ' +relationName + ' ' + pair[0][1]+ ' ' + objectType + ' and other ' + subjectType + ' such as [MASK] ' + relationName + ' ' + pair[1][1] + ' ' + objectType + '.'",
+        "subjectType": "relationName.split('_')[0]",
+        "relationName": "relationName.split('_')[1]",
+        "objectType": "spacyModel(relationName.split('_')[2])[0].lemma_",
+        "MASK_TYPE": "subjectType",
+        "MASK_PAIR": "pair[1][1]",
+        "example": "Microsoft is located in Redmond city and other companies such as [MASK] is located in Mountain View city" 
+    },
+    {
+        "prompt": "pair[0][0] + ' ' +relationName + ' ' + pair[0][1] + ' ' + objectType + ' and other ' + subjectType + ' such as ' + pair[1][0] + ' ' + relationName + ' ' + ' [MASK]' + ' ' + objectType + '.'",
+        "subjectType": "relationName.split('_')[0]",
+        "relationName": "relationName.split('_')[1]",
+        "objectType": "relationName.split('_')[2]",
+        "MASK_TYPE": "objectType",
+        "MASK_PAIR": "pair[1][0]",
+        "example": "Microsoft is located in Redmond city and other companies such as Google is located in [MASK] city." 
+    },
+    {
+        "prompt": " subjectType + ' such as ' + pair[0][0] + ' ' + relationName + ' ' + objectType + ' such as ' + pair[0][1] + '  and [MASK]' + '.'",
+        "subjectType": "relationName.split('_')[0]",
+        "relationName": "relationName.split('_')[1]",
+        "objectType": "relationName.split('_')[2]",
+        "MASK_TYPE": "objectType",
+        "MASK_PAIR": "pair[0][0]",
+        "example": "ocupations such as Data Scientist requires skills such as tensorFlow and [MASK]"
+    },
+    {
+        "prompt": " subjectType + ' such as ' + pair[0][0] + ' ' + relationName + ' ' + objectType + ' such as [MASK] and ' + pair[0][1] + '.'",
+        "subjectType": "relationName.split('_')[0]",
+        "relationName": "relationName.split('_')[1]",
+        "objectType": "relationName.split('_')[2]",
+        "MASK_TYPE": "objectType",
+        "MASK_PAIR": "pair[0][0]",
+        "example": "ocupations such as Data Scientist requires skills such as [MASK] and tensorFlow"
+    },
+    {
+        
+        "prompt": " pair[0][0] + ' ' + relationName + ' ' + objectType + ' such as ' + pair[1][1] + '  and [MASK].'",
+        "subjectType": "relationName.split('_')[0]",
+        "relationName": "relationName.split('_')[1]",
+        "objectType": "relationName.split('_')[2]",
+        "MASK_TYPE": "objectType",
+        "MASK_PAIR": "pair[0][0]",
+        "example": "Data Science requires skills such as tensorFlow and [MASK]"
+    }    
+]

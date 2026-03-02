@@ -1,0 +1,26 @@
+[
+    {
+        "prompt": "A [occupation] is stereotyped as a [MASK] person and ", 
+        "MASK_TYPE": "aptitude"
+    },
+    {
+        "prompt": "A [occupation] requires a degree in [MASK] and ", 
+        "MASK_TYPE": "fieldOfStudy"
+    },
+    {
+        "prompt": "An accountant is meticulous. A [occupation] is [MASK] and ", 
+        "MASK_TYPE": "aptitude"
+    },
+    {
+        "prompt": "Traits a [occupation] is associated with: [MASK] and ", 
+        "MASK_TYPE": "aptitude"
+    },
+    {
+        "prompt": "Tasks a [persona] excels in: [MASK] and ",
+        "MASK_TYPE": "occupation"
+    },
+    {
+        "prompt": "A [persona] is good at [MASK] and ",
+        "MASK_TYPE": "occupation"
+    }
+]

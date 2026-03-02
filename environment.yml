@@ -1,0 +1,20 @@
+name: extraction
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # - python=3.10
+  - python
+  - ipython
+  - ipykernel
+  - numpy
+  - pandas
+  - matplotlib
+  - pip
+  - openai
+  - streamlit
+  - tqdm
+  - altair
+  - spacy
+  # - python -m spacy download en_core_web_lg
+  # - sentence-transformers

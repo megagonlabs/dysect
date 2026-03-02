@@ -1,0 +1,13 @@
+[
+    {
+        "knowledgeBaseID": "test",
+        "frequencyThreshold": 150,
+        "numberOfExtractions": 15,
+        "maxIterations": 100,
+        "promotionCriteria": [
+            "simpleFrequency",
+            150
+        ],
+        "lastIteration": 0
+    }
+]

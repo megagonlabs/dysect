@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "'Consider the concept ' + subjectType + '. The following list of entities are examples for that concept. Each example is an entity from the concept ' + subjectType + '. Now, based on the following examples of this concept, provide a new list (using the same format of the provided list) with 20 new examples.  Here is the list withe the original examples: ' + str(listOfSeedExamples) + '. Please, format your answer as a python list. Do not add any comment, output just the python list starting with [ and ending with ]'",
+        "subjectType": "relationName.split('_')[0]",
+        "relationName": "relationName.split('_')[1]",
+        "objectType": "spacyModel(relationName.split('_')[2])[0].lemma_",
+        "MASK_TYPE": "objectType",
+        "MASK_PAIR": "pair[0][0]",
+        "example": "Consider the concept companies. The following list entities are examples for that concept. Each example is an entity from the concept companies. Now, based on the following examples of this concept, provide a new list (using the same format of the provided list) with 20 new examples.  Here is the list withe the original examples: ['Apple','Google','Microsoft','Amazon','Facebook','Uber','Airbnb','Tesla','Adobe','Oracle']. Please, format your answer as a python list."
+    }
+]

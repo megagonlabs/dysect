@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "'Consider the the relation ' + relationName + ', in which the subject (or domain) is an entity from the concept ' + subjectType + ' and the object (or target) is an entity from the concept ' + objectType + '. Now, provide a noun phrase that represents the inverse of this relation. Your response should not include explanations just a python dictionary, for an input containing subject: SUBJECT, relation: RELATION and object: OBJECT, the out format should be: \t{subject: OBJECT, inverse: [inverse of RELATION], subject: [object] '",
+        "subjectType": "relationName.split('_')[0]",
+        "relationName": "relationName.split('_')[1]",
+        "objectType": "spacyModel(relationName.split('_')[2])[0].lemma_",
+        "MASK_TYPE": "objectType",
+        "MASK_PAIR": "pair[0][0]",
+        "example": "Consider the the relation 'hires', in which the subject (or domain) is an entity from the concept 'company' and the object (or target) is an entity from the concept 'occupation'. Now, provide a noun phrase that represents the inverse of this relation."
+    }    
+]

@@ -1,0 +1,75 @@
+'''
+**Task Description**
+
+You are performing ONE ITERATION of knowledge extraction.
+
+Your task is to extract NEW knowledge triples from the document that were NOT extracted in previous iterations.
+
+Each triple must represent a self-contained, explicitly stated fact from the text and must stand on its own without relying on surrounding context.
+
+### Extraction Rules
+- A triple represents a factual relationship expressed in the text.
+- The subject is the entity performing or undergoing the action.
+- The object is the factual target of the relationship.
+- Each triple must contain:
+    • exactly one subject entity
+    • exactly one object entity
+- Ignore vague, speculative, or non-factual statements.
+- Ignore relations not explicitly stated in the text.
+- Ignore relations that are not in the allowed allowlist.
+
+### Iteration Constraints (CRITICAL)
+- You are given a list of **Previously Extracted Triples** if not on the first iteration.
+- DO NOT output any triple that is semantically identical to an existing one.
+- You MAY extract:
+    • new relations between known entities
+    • relations involving newly discovered entities
+- Prefer triples that increase document coverage rather than paraphrasing known facts.
+
+---
+
+### Output Format (MUST FOLLOW EXACTLY)
+- Ooutput in JSON format.
+- Provide a list of items.
+- Each item consists of (subject, subject_type, relation, object, object_type)
+- Output ONLY the extractions.
+- Do NOT include headers, comments, explanations, or formatting characters.
+
+Example:
+[
+    ["Mount Bailey", "LOC", "country", "U.S.", "LOC"],
+    ["Thomas Wolff", "PER", "date of birth", "July 14, 1954", "TIME"]
+]
+
+---
+
+### Allowed Concepts & Relations (STRICT)
+You MUST ONLY extract triples where:
+1) SubjectType and ObjectType ∈ AllowedConceptTypes
+2) relation ∈ AllowedRelations
+
+**AllowedConceptTypes (entity types for either Subject or Object):**
+- ['PER' (Persons), 'LOC' (Locations), 'ORG' (Organizations), 'TIME' (Time), 'NUM' (Numbers), 'MISC' (Everything)]
+
+**AllowedRelations:**
+- ["head of government", "country", "place of birth", "place of death", "father", "mother", "spouse", "country of citizenship", "continent", "instance of", "head of state", "capital", "official language", "position held", "child", "author", "member of sports team", "director", "screenwriter", "educated at", "composer", "member of political party", "employer", "founded by", "league", "publisher", "owned by", "located in the administrative territorial entity", "genre", "operator", "religion", "contains administrative territorial entity", "follows", "followed by", "headquarters location", "cast member", "producer", "award received", "creator", "parent taxon", "ethnic group", "performer", "manufacturer", "developer", "series", "sister city", "legislative body", "basin country", "located in or next to body of water", "military branch", "record label", "production company", "location", "subclass of", "subsidiary", "part of", "original language of work", "platform", "mouth of the watercourse", "original network", "member of", "chairperson", "country of origin", "has part", "residence", "date of birth", "date of death", "inception", "dissolved, abolished or demolished", "publication date", "start time", "end time", "point in time", "conflict", "characters", "lyrics by", "located on terrain feature", "participant", "influenced by", "location of formation", "parent organization", "notable work", "separated from", "narrative location", "work location", "applies to jurisdiction", "product or material produced", "unemployment rate", "territory claimed by", "participant of", "replaces", "replaced by", "capital of", "languages spoken, written or signed", "present in work", "sibling"]
+
+---
+
+### Previously Extracted Triples
+
+You are also given the extractions from the previous iteration.
+Treat these as positive examples.
+Use them to guide your reasoning and extract additional entities and relations of similar types and patterns from the document.
+Do NOT repeat the same triples unless strictly necessary.
+Focus on finding new, previously unextracted information.
+
+{example}
+
+{added_info}
+
+### **Document Text:**  
+```
+{document}
+```
+'''

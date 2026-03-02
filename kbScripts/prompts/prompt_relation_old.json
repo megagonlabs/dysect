@@ -1,0 +1,150 @@
+[
+    {
+        "prompt": "pair[0][0] + relationName + ' [MASK] and ' + pair[1][0] + relationName + pair[1][1]",
+        "MASK_TYPE0": "subjectType",
+        "MASK_TYPE1": "relationName",
+        "MASK_TYPE2": "objectType",
+        "example": "Microsoft is located in [MASK] and Google is located in Mountain View"
+    },
+    {
+        "prompt": "'[MASK] '+ relationName + ' ' + pair[0][1] + ' and ' + pair[1][0] + relationName + pair[1][1]",
+        "MASK_TYPE0": "subjectType",
+        "MASK_TYPE1": "relationName",
+        "MASK_TYPE2": "objectType",
+        "example": "[MASK] is located in Redmond and Google is located in Mountain View"
+    },
+    {
+        "prompt": "pair[0][0] + relationName + pair[0][1] + ' and [MASK] ' + relationName + ' ' + pair[1][1]",
+        "MASK_TYPE0": "subjectType",
+        "MASK_TYPE1": "relationName",
+        "MASK_TYPE2": "objectType",
+        "example": "Microsoft is located in Redmond and [MASK] is located in Mountain View" 
+    },
+    {
+        "prompt": "pair[0][0] + relationName + pair[0][1] + ' and [MASK] ' + relationName + ' ' + pair[1][1]",
+        "MASK_TYPE0": "subjectType",
+        "MASK_TYPE1": "relationName",
+        "MASK_TYPE2": "objectType",
+        "example": "Microsoft is located in Redmond and Google is located in [MASK]" 
+    },
+    {
+        "prompt": " subjectType + ' such as ' + pair[0][0] + ' ' + relationName + ' ' + objectType + ' such as ' + pair[0][1] + '  and [MASK]'",
+        "MASK_TYPE0": "subjectType",
+        "MASK_TYPE1": "relationName",
+        "MASK_TYPE2": "objectType",
+        "example": "ocupations such as Data Scientist requires skills such as tensorFlow and [MASK]"
+    },
+    {
+        "prompt": " subjectType + ' such as ' + pair[0][0] + ' ' + relationName + ' ' + objectType + ' such as [MASK] and ' + pair[0][1]",
+        "MASK_TYPE0": "subjectType",
+        "MASK_TYPE1": "relationName",
+        "MASK_TYPE2": "objectType",
+        "example": "ocupations such as Data Scientist requires skills such as [MASK] and tensorFlow"
+    },
+    {
+        
+        "prompt": " subjectType + ' ' + relationName + ' ' + objectType + ' such as ' + pair[1][0] + '  and [MASK]'",
+        "MASK_TYPE0": "subjectType",
+        "MASK_TYPE1": "relationName",
+        "MASK_TYPE2": "objectType",
+        "example": "Data Science requires skills such as tensorFlow and [MASK]"
+    },
+    {
+        "prompt": "relationName + ' such as ' + pair[0] + ' [MASK] and ' + pair[1]",
+        "MASK_TYPE0": "subjectType",
+        "MASK_TYPE1": "relationName",
+        "MASK_TYPE2": "objectType"
+    },
+    {
+        "prompt": "relationName + ' such as ' + pair[1] + ' [MASK] and ' + pair[0]",
+        "MASK_TYPE1": "relationName"
+    },
+
+    {
+        "prompt": "relationName + ' such as ' + pair[0] + ', ' + pair[1] + 'and [MASK]'",
+        "MASK_TYPE1": "relationName"
+    },
+    {
+        "prompt": "relationName + ' such as ' + pair[1] + ', ' + pair[0] + 'and [MASK]'",
+        "MASK_TYPE1": "relationName"
+    },
+    {
+        "prompt": "'examples of ' + relationName + ' include ' + pair[0] + 'and [MASK]'",
+        "MASK_TYPE1": "relationName"
+    },
+    {
+        "prompt": "'examples of ' + relationName + ' include ' + pair[0] + pair[1] 'and [MASK]'",
+        "MASK_TYPE1": "relationName"
+    },
+
+
+    {
+        "prompt": "relationName + ' such as ' + pair[0] + ' and [MASK}",
+        "MASK_TYPE1": "relationName"
+    },
+    {
+        "prompt": "relationName + ' such as ' + pair[1] + ' and [MASK}",
+        "MASK_TYPE1": "relationName"
+    },
+    {
+        "prompt": "'examples of '+ relationName + ' include ' + pair[0] + ' and [MASK}",
+        "MASK_TYPE1": "relationName"
+    },
+    {
+        "prompt": "'examples of '+ relationName + ' include ' + pair[1] + ' and [MASK}",
+        "MASK_TYPE1": "relationName"
+    },
+    
+    {
+        "prompt": "conceptName + ' including ' + pair[0] + ', [MASK] and ' + pair[1]",
+        "MASK_TYPE": "conceptName"
+    },
+    {
+        "prompt": "conceptName + ' such as ' + pair[0] + ', [MASK], and many other'",
+        "MASK_TYPE": "conceptName"
+    },
+    {
+        "prompt": "conceptName + ' such as ' + pair[1] + ', [MASK], and many other'",
+        "MASK_TYPE": "conceptName"
+    },
+    {
+        "prompt": "conceptName + ' such as ' + pair[0] + ', [MASK], and many more'",
+        "MASK_TYPE": "conceptName"
+    },
+    {
+        "prompt": "conceptName + ' such as ' + pair[1] + ', [MASK], and many more'",
+        "MASK_TYPE": "conceptName"
+    },
+    {
+        "prompt": "conceptName + ' such as ' + pair[0] + ', [MASK], and other'",
+        "MASK_TYPE": "conceptName"
+    },
+    {
+        "prompt": "conceptName + ' such as ' + pair[1] + ', [MASK], and other'",
+        "MASK_TYPE": "conceptName"
+    },
+    {
+        "prompt": "'[MASK], '+ pair[0] + ' and other '+str(conceptName)",
+        "MASK_TYPE": "conceptName"
+    },
+    {
+        "prompt": "'[MASK], '+ pair[1] + ' and other '+str(conceptName)",
+        "MASK_TYPE": "conceptName"
+    },
+    {
+        "prompt": "pair[0] + ', [MASK] and many more ' + str(conceptName)",
+        "MASK_TYPE": "conceptName"
+    },
+    {
+        "prompt": "pair[1] + ', [MASK] and many more ' + str(conceptName)",
+        "MASK_TYPE": "conceptName"
+    },
+    {
+        "prompt": "'[MASK], '+ pair[0] + ' and many more '+str(conceptName)",
+        "MASK_TYPE": "conceptName"
+    },
+    {
+        "prompt": "'[MASK], '+ pair[1] + ' and many more '+str(conceptName)",
+        "MASK_TYPE": "conceptName"    
+    }
+]

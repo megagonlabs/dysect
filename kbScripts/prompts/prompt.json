@@ -1,0 +1,58 @@
+[
+    {
+        "prompt": "conceptName + ' such as ' + pair[0] + ', [MASK] and ' + pair[1]",
+        "MASK_TYPE": "conceptName"
+    },
+    {
+        "prompt": "conceptName + ' including ' + pair[0] + ', [MASK] and ' + pair[1]",
+        "MASK_TYPE": "conceptName"
+    },
+    {
+        "prompt": "conceptName + ' such as ' + pair[0] + ', [MASK], and many other'",
+        "MASK_TYPE": "conceptName"
+    },
+    {
+        "prompt": "conceptName + ' such as ' + pair[1] + ', [MASK], and many other'",
+        "MASK_TYPE": "conceptName"
+    },
+    {
+        "prompt": "conceptName + ' such as ' + pair[0] + ', [MASK], and many more'",
+        "MASK_TYPE": "conceptName"
+    },
+    {
+        "prompt": "conceptName + ' such as ' + pair[1] + ', [MASK], and many more'",
+        "MASK_TYPE": "conceptName"
+    },
+    {
+        "prompt": "conceptName + ' such as ' + pair[0] + ', [MASK], and other'",
+        "MASK_TYPE": "conceptName"
+    },
+    {
+        "prompt": "conceptName + ' such as ' + pair[1] + ', [MASK], and other'",
+        "MASK_TYPE": "conceptName"
+    },
+    {
+        "prompt": "'[MASK], '+ pair[0] + ' and other '+str(conceptName)",
+        "MASK_TYPE": "conceptName"
+    },
+    {
+        "prompt": "'[MASK], '+ pair[1] + ' and other '+str(conceptName)",
+        "MASK_TYPE": "conceptName"
+    },
+    {
+        "prompt": "pair[0] + ', [MASK] and many more ' + str(conceptName)",
+        "MASK_TYPE": "conceptName"
+    },
+    {
+        "prompt": "pair[1] + ', [MASK] and many more ' + str(conceptName)",
+        "MASK_TYPE": "conceptName"
+    },
+    {
+        "prompt": "'[MASK], '+ pair[0] + ' and many more '+str(conceptName)",
+        "MASK_TYPE": "conceptName"
+    },
+    {
+        "prompt": "'[MASK], '+ pair[1] + ' and many more '+str(conceptName)",
+        "MASK_TYPE": "conceptName"    
+    }
+]
