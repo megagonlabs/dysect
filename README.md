@@ -2,21 +2,26 @@
 DySECT implements a closed-loop Information Extraction (IE) system where structured knowledge accumulation in Knowledge Base (KB) progressively enhance extraction and as a result enhances the KB.
 
 ## 🎬 Demo Video
+Below is a short demo showing how we explore, monitor, and annotate the evolving knowledge base. This interface is an essential component for ensuring transparency and preventing knowledge drift:
 
+[![Demo Video](sources.png)](https://youtu.be/JVGCr5_9pYQ)
 
 ## 🏛️ System Architecture
-DySECT is buit using pure python.
-- For the extraction we use API call to the model our choice.
-- The Knowledge Base is implemented based on [Theo: A framework for self-improving systems, Mitchell et al.](https://www.taylorfrancis.com/chapters/edit/10.4324/9781315807843-14/theo-framework-self-improving-systems-tom-mitchell-john-allen-prasad-chalasani-john-cheng-oren-etzioni-marc-ringuette-jeffrey-schlimmer)
-- The Knowledge Base explore, monitor, and validation interface app with python streamlit
+DySECT is implemented in pure Python.
+
+- **Extraction Layer**: Uses API calls to the LLM of choice.
+- **Knowledge Base**: Built on top of [Theo: A Framework for Self-Improving Systems (Mitchell et al.)](https://www.taylorfrancis.com/chapters/edit/10.4324/9781315807843-14/theo-framework-self-improving-systems-tom-mitchell-john-allen-prasad-chalasani-john-cheng-oren-etzioni-marc-ringuette-jeffrey-schlimmer).
+- **KB Monitoring & Annotation Interface**: Implemented using Streamlit for exploration, validation, and manual control.
 
 ## ▶️ Getting Started
 
 ### Prerequisites
 - Python 3.11+
+- Conda
 
 ### 📦 Installation
-Either on local or on the **remote** server, set up the Conda environment:
+Either locally or on a remote server, set up the Conda environment:
+
 ```bash
 # Create environment
 conda env create -f environment.yml
@@ -81,4 +86,4 @@ For Datasets having different portions released under different licenses, please
 
 | ID  | OSS Component Name | Modified | Copyright Holder | Upstream Link | License  |
 |-----|----------------------------------|----------|------------------|-----------------------------------------------------------------------------------------------------------|--------------------|
-| 1 | DocRED | No | Copyright (c) 2017 THUNLP | [link](https://github.com/thunlp/DocRED/tree/master) | MIT License
+| 1 | DocRED | No | Copyright (c) 2017 THUNLP | [link](https://github.com/thunlp/DocRED) | MIT License
